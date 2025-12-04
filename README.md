@@ -5,7 +5,7 @@ Copyeditr is an AI tool (status: alpha, buggy) built to help catch typos and for
 # Setup
 
 `poetry.lock` and `pyproject.toml` and provided for easy installation using `poetry`. 
-- `poetry install .`  
+- `poetry install`  
 
 You will need an OpenAI API key, which you will need to paste into `template.env` replacing the text `YOUR_API_KEY_GOES_HERE`. Then **rename the file from `template.env` to simply `.env` so that `load_dotenv()` can find it.**
 
@@ -13,7 +13,9 @@ You will need an OpenAI API key, which you will need to paste into `template.env
 
 `poetry run python annotate.py --no-refine path/to/your/file.pdf`  
 
-- This will generate a new file called `annotated_pdf.pdf` with PDF comments at (or near) any identified typos.
+- This will generate a new file called `annotated_output.pdf` with PDF comments at (or near) any identified typos.
+
+![Demo of Copyeditr](assets/flow.png)
 
 # Wish-list
 
