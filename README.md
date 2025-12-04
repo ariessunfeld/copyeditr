@@ -2,6 +2,8 @@
 
 Copyeditr is an AI tool (status: alpha, buggy) built to help catch typos and formatting errors in PDFs. It takes a PDF as input and generates an annotated PDF as output. It was developed in collaboration with OpenAI's `GPT-5.1`.
 
+![Demo of Copyeditr](assets/flow.png)
+
 # Setup
 
 `poetry.lock` and `pyproject.toml` and provided for easy installation using `poetry`. 
@@ -15,7 +17,6 @@ You will need an OpenAI API key, which you will need to paste into `template.env
 
 - This will generate a new file called `annotated_output.pdf` with PDF comments at (or near) any identified typos.
 
-![Demo of Copyeditr](assets/flow.png)
 
 # Wish-list
 
