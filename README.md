@@ -7,7 +7,7 @@ Copyeditr is an AI tool (status: alpha) built to help catch typos and formatting
 # Setup
 
 `poetry.lock` and `pyproject.toml` and provided for easy installation using `poetry`. 
-- `poetry install`  
+- After cloning the repository, run `poetry install`  
 
 You will need an OpenAI API key, which you will need to paste into `template.env` replacing the text `YOUR_API_KEY_GOES_HERE`. Then **rename the file from `template.env` to simply `.env` so that `load_dotenv()` can find it.**
 
