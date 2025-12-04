@@ -1,6 +1,6 @@
 # copyeditr
 
-Copyeditr is an AI tool (status: alpha, buggy) built to help catch typos and formatting errors in PDFs. It takes a PDF as input and generates an annotated PDF as output. It was developed in collaboration with OpenAI's `GPT-5.1`.
+Copyeditr is an AI tool (status: alpha) built to help catch typos and formatting errors in PDFs. It takes a PDF as input and generates an annotated PDF as output. It was developed in collaboration with OpenAI's `GPT-5.1`.
 
 ![Demo of Copyeditr](assets/flow.png)
 
