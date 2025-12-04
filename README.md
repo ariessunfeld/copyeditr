@@ -23,3 +23,8 @@ You will need an OpenAI API key, which you will need to paste into `template.env
 - Test on Windows (currently only tested on Apple Silicon)
 - Add flexibility re: model provider (Google, Anthropic, local, etc)
 - Develop a test-set including typo-ridden and typo-free PDFs for evaluation
+
+# Contributing
+
+Please feel free to test this code, try things out, and run with it. If you think of ways to make it better or find bugs, feel free to reach out (ariessunfeld [at] gmail [dot] com) or open an Issue on this repository.
+
